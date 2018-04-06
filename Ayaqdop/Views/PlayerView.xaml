@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Ayaqdop.Views.PlayerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" >
+    <Grid Margin="5">
+        <Viewbox Stretch="Uniform" StretchDirection="Both">
+            <Ellipse Name="ShirtColor" Fill="#00B5CC" Stretch="UniformToFill" Width="50" Height="50" />
+        </Viewbox>
+        <Viewbox Stretch="Uniform" StretchDirection="Both">
+            <TextBlock Name="Nummer" FontWeight="Bold" Text="10" Margin="2" Foreground="#FFF203" HorizontalAlignment="Center" VerticalAlignment="Stretch" FontFamily="Goudy Old Style" />
+        </Viewbox>
+    </Grid>
+</UserControl>
